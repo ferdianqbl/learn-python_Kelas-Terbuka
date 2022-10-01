@@ -35,16 +35,18 @@ print("ucup\t\t\totong, semakin jauhan")
 print("ucup \botong, jadi deketan")
 
 # newline
-print("baris pertama.\nbaris kedua.") # LF -> line feed -> unix, macos, linux
-print("baris pertama.\rbaris kedua.") # CR -> carriage return -> commodore, acorn, lisp 
-print("baris pertama.\r\nbaris kedua.") # CRLF -> line feed carriage return -> dipakai oleh windows
+print("baris pertama.\nbaris kedua.")  # LF -> line feed -> unix, macos, linux
+# CR -> carriage return -> commodore, acorn, lisp
+print("baris pertama.\rbaris kedua.")
+# CRLF -> line feed carriage return -> dipakai oleh windows
+print("baris pertama.\r\nbaris kedua.")
 
 # 3. String literal atau raw
 
 # hati-hati
-print('C:\new folder') # akan salah pathnya
+print('C:\new folder')  # akan salah pathnya
 
-# menggunakan raw string
+# menggunakan raw string --> akan mengabaikan semua yang ada di dalam string / berubah menjadi string biasa
 print(r'C:\new folder')
 
 # multiline literal string
