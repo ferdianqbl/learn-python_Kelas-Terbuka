@@ -1,7 +1,6 @@
 # a = 10, a adalah variabel dengan nilai 10
 
-# tipe data: Angka satuan yang gak ada
-# koma nya (integer)
+# tipe data: Angka satuan yang gak ada koma nya (integer)
 from ctypes import c_double, c_char
 data_integer = 11
 print("data : ", data_integer)
@@ -13,7 +12,7 @@ print("data : ", data_float)
 print("- bertipe : ", type(data_float))
 
 # tipe data: kumpulan karakter (string)
-data_string = "ucup"
+data_string = "ucup makan bakso"
 print("data : ", data_string)
 print("- bertipe : ", type(data_string))
 
