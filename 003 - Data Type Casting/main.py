@@ -16,10 +16,10 @@ print("data = ", data_bool, ",type =", type(data_bool))
 
 # FLOAT
 print("====FLOAT====")
-data_float = 0
+data_float = 0.1
 print("data = ", data_float, ",type =", type(data_float))
 
-data_int = int(data_float)  # akan dibulatkan ke bawah
+data_int = int(data_float)  # akan dibulatkan ke bawah (selalu ke bawah)
 data_str = str(data_float)
 data_bool = bool(data_float)  # akan false jika nilai float = 0
 print("data = ", data_int, ",type =", type(data_int))
